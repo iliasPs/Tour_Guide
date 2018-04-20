@@ -7,12 +7,18 @@ package com.example.vga.tour_guide;
 public class Sight {
 
 private int mSightImage;
-private String mSightTitle;
-private String mSightLocation;
-private String mSightCategory;
-private String mSightShortDesc;
+private int mSightTitle;
+private int mSightLocation;
+private int mSightCategory;
+private int mSightShortDesc;
 
-public Sight (int sightImage, String sightTitle, String sightLocation, String sightCategory, String sightShortDesc){
+    /** Image resource ID for the word */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    /** Constant value that represents no image was provided for this word */
+    private static final int NO_IMAGE_PROVIDED = -1;
+
+public Sight (int sightImage, int sightTitle,int sightShortDesc, int sightCategory,  int sightLocation){
 
     mSightImage = sightImage;
     mSightTitle = sightTitle;
@@ -25,23 +31,23 @@ public Sight (int sightImage, String sightTitle, String sightLocation, String si
 
 }
 
-    public int getmSightImage() {
+    public int getSightImage() {
         return mSightImage;
     }
 
-    public String getmSightTitle() {
+    public int getSightTitle() {
         return mSightTitle;
     }
 
-    public String getmSightLocation() {
+    public int getSightLocation() {
         return mSightLocation;
     }
 
-    public String getmSightCategory() {
+    public int getSightCategory() {
         return mSightCategory;
     }
 
-    public String getmSightShortDesc() {
+    public int getSightShortDesc() {
         return mSightShortDesc;
     }
 }

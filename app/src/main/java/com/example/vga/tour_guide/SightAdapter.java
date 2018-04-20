@@ -34,16 +34,16 @@ public class SightAdapter extends ArrayAdapter<Sight> {
         Sight currentSight = getItem(position);
 
         ImageView sightImage = listItemView.findViewById(R.id.sightImage);
-        sightImage.setImageResource(currentSight.getmSightImage());
+        sightImage.setImageResource(currentSight.getSightImage());
 
         TextView sightTitle = listItemView.findViewById(R.id.sightTitle);
-        sightTitle.setText(currentSight.getmSightTitle());
+        sightTitle.setText(currentSight.getSightTitle());
 
         TextView sightShortDesc = listItemView.findViewById(R.id.sightShortDesc);
-        sightShortDesc.setText(currentSight.getmSightShortDesc());
+        sightShortDesc.setText(currentSight.getSightShortDesc());
 
         TextView sightLocation = listItemView.findViewById(R.id.sightLocation);
-        sightLocation.setText(currentSight.getmSightLocation());
+        sightLocation.setText(currentSight.getSightLocation());
 
             return listItemView;
         }

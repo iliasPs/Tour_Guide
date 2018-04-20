@@ -3,4 +3,33 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acropolis_short_desc">The Acropolis of Athens and its monuments are universal
+        symbols of the classical spirit and civilization</string>
+    <string name="acropolis_desc">The Acropolis of Athens and its monuments are universal
+        symbols of the classical spirit and civilization and form the greatest architectural and artistic complex
+        bequeathed by Greek Antiquity to the world. In the second half of the fifth century bc, Athens,
+        following the victory against the Persians and the establishment of democracy,
+        took a leading position amongst the other city-states of the ancient world.
+        In the age that followed, as thought and art flourished, an exceptional group of
+        artists put into effect the ambitious plans of Athenian statesman Pericles and, under the inspired guidance of
+        the sculptor Pheidias, transformed the rocky hill into a unique monument of thought and the arts.
+        The most important monuments were built during that time: the Parthenon, built by Ictinus, the Erechtheon
+        , the Propylaea, the monumental entrance to the Acropolis, designed by Mnesicles and the small temple Athena Nike.
+    </string>
+<string name="acropolis_title">Acropolis</string>
+    <string name="acropolis_location">Athens, Greece</string>
+    <string name="cat_landmark">Landmark</string>
+    <string name="soldier_short_desc">The Tomb of the Unknown Soldier is a war memorial located in Syntagma Square in Athens</string>
+    <string name="soldier_title">Tomb of the Unknown Soldier</string>
+    <string name="soldier_desc">The Tomb of the Unknown soldier is located in Syntagma
+        Square in Athens by the Hellenic Parliament building. The tomb honors all those Greek soldiers who were ever killed
+        in war and each day, there is a special ceremony performed here that further honors the following.
+        While visiting the city, you absolutely don’t want to miss the chance to not only see the tomb itself, but
+        to view the ceremony if you are able. The Hellenic Parliament building, however, is more than just the parliament.
+        That building has a rich history, as well, since it was the palace when Greece was ruled by a monarchy.</string>
+    <string name="soldier_location">Athens, Greece</string>
+
+
+
+
 </resources>
